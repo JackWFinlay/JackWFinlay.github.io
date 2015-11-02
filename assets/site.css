@@ -59,7 +59,16 @@
 	background-color: #efefef;
 }
 
+.contact-content {
+	border-left: 1px solid #dbdbdb;
+
+}
+
 .content {
 	position: relative;
 	top: 50px;
+}
+
+img {
+	opacity: 0.50;
 }
