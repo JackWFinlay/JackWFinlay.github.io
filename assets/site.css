@@ -50,10 +50,7 @@
 	background-color: #efefef;
 }
 
-.portfolio {
-	background-color: #fff;
-	text-align: right;
-}
+
 
 .contact {
 	background-color: #efefef;
@@ -67,8 +64,15 @@
 .content {
 	position: relative;
 	top: 50px;
+	margin-bottom: 50px;
 }
 
-img {
+.portfolio {
+	background-color: #fff;
+	text-align: right;
+}
+
+.portfolio img {
 	opacity: 0.50;
+	margin-left: -15px;
 }
