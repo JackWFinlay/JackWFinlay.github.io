@@ -80,11 +80,6 @@
 	z-index: 1;
 }
 
-.glyphicon {
-	font-size: 300px;
-
-}
-
 img {
 	z-index: -1;
 }
@@ -106,10 +101,6 @@ img {
 		border-bottom: 1px solid #dbdbdb;
 		padding-bottom: 20px;
 	}
-
-	.glyphicon {
-		font-size: 0;
-	}
 }
 
 @media screen and (min-width: 767px){
@@ -118,12 +109,5 @@ img {
 		transition: opacity .25s ease-in-out;
     	-moz-transition: opacity .25s ease-in-out;
     	-webkit-transition: opacity .25s ease-in-out;
-	}
-}
-
-@media screen and (min-width: 767px, max-width: 992px) {
-	.glyphicon {
-		font-size: 150px;
-		vertical-align: middle;
 	}
 }
