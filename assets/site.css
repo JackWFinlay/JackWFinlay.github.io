@@ -1,5 +1,5 @@
 .nav {
-	background-color: lightgray;
+	background-color: #efefef;
 	min-height: 50px;
 	height: auto;
 }
@@ -24,8 +24,10 @@
 
 .jumbotron {
 	height: 400px;
-	background-color: grey;
+	background-color: black;
 	margin-bottom: 0;
+	
+
 }
 
 .jumbotron .container {
@@ -34,9 +36,13 @@
 }
 
 .jumbotron h1 {
-  color: #fff;
+  color: #efefef;
   font-size: 48px;
   font-weight: bold;
+}
+
+.jumbotron p {
+	color: #F8F8F8;
 
 }
 
@@ -82,25 +88,32 @@
 
 }
 
-
 img {
-	opacity: 0.50;
-	margin-left: -15px;
 	z-index: -1;
 }
 
-@media screen and (max-width: 768px){
-	.about img {
-		opacity: 0.10;
+.porfolio img {
+	margin-left: -15px;
+	
+}
+
+@media screen and (max-width: 767px){
+	img {
+		opacity: 0.25;
 		transition: opacity .25s ease-in-out;
     	-moz-transition: opacity .25s ease-in-out;
     	-webkit-transition: opacity .25s ease-in-out;
 	}
+
+	.contact-content {
+		border-bottom: 1px solid #dbdbdb;
+		padding-bottom: 20px;
+	}
 }
 
-@media screen and (min-width: 768px){
-	.about img {
-		opacity: 0.50;
+@media screen and (min-width: 767px){
+	img {
+		opacity: 0.65;
 		transition: opacity .25s ease-in-out;
     	-moz-transition: opacity .25s ease-in-out;
     	-webkit-transition: opacity .25s ease-in-out;
