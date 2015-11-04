@@ -1,46 +1,48 @@
 .nav {
+
 	background-color: #efefef;
 	min-height: 50px;
 	height: auto;
-}
 
-.nav a {
-  color: #5a5a5a;
-  font-size: 11px;
-  font-weight: bold;
-  padding: 0 12px;
-  text-transform: uppercase;
-}
+	a {
+	  color: #5a5a5a;
+	  font-size: 11px;
+	  font-weight: bold;
+	  padding: 0 12px;
+	  text-transform: uppercase;
+	}
 
-.nav ul {
-	padding-top: 25px;
-	margin: 0;
-	padding-left: 0;
+	ul {
+		padding-top: 25px;
+		margin: 0;
+		padding-left: 0;
+	}
 }
-
 
 .jumbotron {
 	height: 400px;
 	background-color: black;
 	margin-bottom: 0;
 	
-
 }
 
-.jumbotron .container {
-	position: relative;
-	top: 150px;
-}
+.jumbotron {
 
-.jumbotron h1 {
-  color: #efefef;
-  font-size: 48px;
-  font-weight: bold;
-}
+	& .container {
+		position: relative;
+		top: 150px;
+	}
 
-.jumbotron p {
-	color: #F8F8F8;
+	h1 {
+	  color: #efefef;
+	  font-size: 48px;
+	  font-weight: bold;
+	}
 
+	p {
+		color: #F8F8F8;
+
+	}
 }
 
 .page-row {
@@ -101,7 +103,7 @@ img {
 		border-bottom: 1px solid #dbdbdb;
 		padding-bottom: 20px;
 	}
-}
+};
 
 @media screen and (min-width: 767px){
 	img {

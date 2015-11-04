@@ -1,0 +1,82 @@
+.nav {
+  background-color: #efefef;
+  min-height: 50px;
+  height: auto; }
+  .nav a {
+    color: #5a5a5a;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 0 12px;
+    text-transform: uppercase; }
+  .nav ul {
+    padding-top: 25px;
+    margin: 0;
+    padding-left: 0; }
+
+.jumbotron {
+  height: 400px;
+  background-color: black;
+  margin-bottom: 0; }
+
+.jumbotron .container {
+  position: relative;
+  top: 150px; }
+.jumbotron h1 {
+  color: #efefef;
+  font-size: 48px;
+  font-weight: bold; }
+.jumbotron p {
+  color: #F8F8F8; }
+
+.page-row {
+  border-bottom: 1px solid #dbdbdb;
+  min-height: 400px;
+  height: auto; }
+
+.about {
+  background-color: #efefef; }
+
+.portfolio {
+  background-color: #fff;
+  text-align: right; }
+
+.contact {
+  background-color: #fff; }
+
+.resume {
+  text-align: center;
+  background-color: #efefef; }
+
+.contact-content {
+  border-left: 1px solid #dbdbdb; }
+
+.content {
+  position: relative;
+  top: 50px;
+  margin-bottom: 50px;
+  z-index: 1; }
+
+img {
+  z-index: -1; }
+
+.porfolio img {
+  margin-left: -15px; }
+
+@media screen and (max-width: 767px) {
+  img {
+    opacity: 0.25;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out; }
+
+  .contact-content {
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 20px; } }
+@media screen and (min-width: 767px) {
+  img {
+    opacity: 0.65;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out; } }
+
+/*# sourceMappingURL=site.css.map */
