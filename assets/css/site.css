@@ -1,22 +1,24 @@
-.nav {
-  background-color: #efefef;
-  min-height: 50px;
-  height: auto; }
-  .nav a {
-    color: #5a5a5a;
-    font-size: 11px;
-    font-weight: bold;
-    padding: 0 12px;
-    text-transform: uppercase; }
-  .nav ul {
-    padding-top: 25px;
-    margin: 0;
-    padding-left: 0; }
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 0 12px;
+  text-transform: uppercase; }
+.nav ul {
+  padding-top: 25px;
+  margin: 0;
+  padding-left: 0; }
 
 .jumbotron {
   height: 400px;
   background-color: black;
   margin-bottom: 0; }
+
+.navbar-brand {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase; }
 
 .jumbotron .container {
   position: relative;
