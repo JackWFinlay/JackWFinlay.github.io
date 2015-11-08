@@ -94,12 +94,6 @@ img {
 }
 
 @media screen and (max-width: 767px){
-	img {
-		opacity: 0.25;
-		transition: opacity .25s ease-in-out;
-    	-moz-transition: opacity .25s ease-in-out;
-    	-webkit-transition: opacity .25s ease-in-out;
-	}
 
 	.contact-content {
 		border-bottom: 1px solid #dbdbdb;
@@ -107,7 +101,16 @@ img {
 	}
 };
 
-@media screen and (min-width: 767px){
+@media screen and (max-width: 992px){
+	img {
+		opacity: 0.25;
+		transition: opacity .25s ease-in-out;
+    	-moz-transition: opacity .25s ease-in-out;
+    	-webkit-transition: opacity .25s ease-in-out;
+	}
+}
+
+@media screen and (min-width: 992px){
 	img {
 		opacity: 0.65;
 		transition: opacity .25s ease-in-out;
