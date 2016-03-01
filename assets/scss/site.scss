@@ -93,13 +93,28 @@ img {
 	
 }
 
+@media screen and (max-width: 420px){
+	.jumbotron {
+		& .container {
+			top: 50px;
+		}
+
+		h1 {
+			font-size: 40px;
+		}
+
+	}
+
+
+}
+
 @media screen and (max-width: 767px){
 
 	.contact-content {
 		border-bottom: 1px solid #dbdbdb;
 		padding-bottom: 20px;
 	}
-};
+}
 
 @media screen and (max-width: 992px){
 	img {
