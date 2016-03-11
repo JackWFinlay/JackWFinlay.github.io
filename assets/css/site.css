@@ -12,6 +12,10 @@
   padding-left: 0;
 }
 
+.navbar {
+  margin-bottom: 0px;
+}
+
 .jumbotron {
   height: 400px;
   background-color: black;
