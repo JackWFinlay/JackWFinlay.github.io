@@ -87,7 +87,7 @@ img {
   margin-left: -15px;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 540px) {
   .jumbotron .container {
     top: 50px;
   }
