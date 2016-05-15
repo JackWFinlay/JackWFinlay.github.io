@@ -3,6 +3,10 @@
   padding-bottom: 50px;
 }
 
+.button {
+  width: 100px;
+}
+
 .contact {
   background-color: #fff;
 }
