@@ -1,71 +1,10 @@
-.nav a {
-  color: #5a5a5a;
-  font-size: 11px;
-  font-weight: bold;
-  padding: 0 12px;
-  text-transform: uppercase;
-}
-
-.nav ul {
-  padding-top: 25px;
-  margin: 0;
-  padding-left: 0;
-}
-
-.navbar {
-  margin-bottom: 0px;
-}
-
-.jumbotron {
-  height: 400px;
-  background-color: black;
-  margin-bottom: 0;
-}
-
-.navbar-brand {
-  color: #5a5a5a;
-  font-size: 11px;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-.jumbotron .container {
-  position: relative;
-  top: 150px;
-}
-
-.jumbotron h1 {
-  color: #efefef;
-  font-size: 48px;
-  font-weight: bold;
-}
-
-.jumbotron p {
-  color: #F8F8F8;
-}
-
-.page-row {
-  border-bottom: 1px solid #dbdbdb;
-  min-height: 400px;
-  height: auto;
-}
-
 .about {
   background-color: #efefef;
-}
-
-.portfolio {
-  background-color: #fff;
-  text-align: right;
+  padding-bottom: 50px;
 }
 
 .contact {
   background-color: #fff;
-}
-
-.resume {
-  text-align: center;
-  background-color: #efefef;
 }
 
 .contact-content {
@@ -77,14 +16,6 @@
   top: 50px;
   margin-bottom: 50px;
   z-index: 1;
-}
-
-img {
-  z-index: -1;
-}
-
-.porfolio img {
-  margin-left: -15px;
 }
 
 footer {
@@ -103,9 +34,79 @@ footer {
   margin-bottom: 0;
 }
 
+img {
+  z-index: -1;
+}
+
+.jumbotron {
+  height: 450px;
+  background-color: black;
+  margin-bottom: 0;
+}
+
+.jumbotron .container {
+  position: relative;
+  top: 150px;
+}
+
+.jumbotron h1 {
+  color: #efefef;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  color: #F8F8F8;
+}
+
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 0 12px;
+  text-transform: uppercase;
+}
+
+.nav ul {
+  padding-top: 25px;
+  margin: 0;
+  padding-left: 0;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.navbar-brand {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.page-row {
+  border-bottom: 1px solid #dbdbdb;
+  min-height: 400px;
+  height: auto;
+}
+
+.portfolio {
+  background-color: #fff;
+  text-align: right;
+}
+
+.porfolio img {
+  margin-left: -15px;
+}
+
+.resume {
+  text-align: center;
+  background-color: #efefef;
+}
+
 @media screen and (max-width: 540px) {
   .jumbotron .container {
-    top: 50px;
+    top: 100px;
   }
   .jumbotron h1 {
     font-size: 40px;

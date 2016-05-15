@@ -1,3 +1,67 @@
+.about {
+	background-color: #efefef;
+	padding-bottom: 50px;
+}
+
+.contact {
+	background-color: #fff;
+}
+
+.contact-content {
+	border-left: 1px solid #dbdbdb;
+
+}
+
+.content {
+	position: relative;
+	top: 50px;
+	margin-bottom: 50px;
+	z-index: 1;
+}
+
+footer {
+	background: black;
+	color: white;
+	font-weight: bold;
+	height: 30px;
+}
+
+.footer-content {
+	position: relative;
+	top: 5px;
+
+	& p {
+		margin-bottom: 0;
+	}
+}
+
+img {
+	z-index: -1;
+}
+
+.jumbotron {
+
+	height: 450px;
+	background-color: black;
+	margin-bottom: 0;
+
+	& .container {
+		position: relative;
+		top: 150px;
+	}
+
+	h1 {
+	  color: #efefef;
+	  font-size: 48px;
+	  font-weight: bold;
+	}
+
+	p {
+		color: #F8F8F8;
+
+	}
+}
+
 .nav {
 	a {
 	  color: #5a5a5a;
@@ -18,37 +82,11 @@
 	margin-bottom: 0px;
 }
 
-.jumbotron {
-	height: 400px;
-	background-color: black;
-	margin-bottom: 0;
-	
-}
-
 .navbar-brand {
 	color: #5a5a5a;
 	font-size: 11px;
 	font-weight: bold;
 	text-transform: uppercase;
-}
-
-.jumbotron {
-
-	& .container {
-		position: relative;
-		top: 150px;
-	}
-
-	h1 {
-	  color: #efefef;
-	  font-size: 48px;
-	  font-weight: bold;
-	}
-
-	p {
-		color: #F8F8F8;
-
-	}
 }
 
 .page-row {
@@ -57,17 +95,13 @@
 	height: auto;
 }
 
-.about {
-	background-color: #efefef;
-}
-
 .portfolio {
 	background-color: #fff;
 	text-align: right;
 }
 
-.contact {
-	background-color: #fff;
+.porfolio img {
+	margin-left: -15px;
 }
 
 .resume {
@@ -75,48 +109,10 @@
 	background-color: #efefef;
 }
 
-
-.contact-content {
-	border-left: 1px solid #dbdbdb;
-
-}
-
-.content {
-	position: relative;
-	top: 50px;
-	margin-bottom: 50px;
-	z-index: 1;
-}
-
-img {
-	z-index: -1;
-}
-
-.porfolio img {
-	margin-left: -15px;
-}
-
-footer {
-	background: black;
-	color: white;
-	font-weight: bold;
-	height: 30px;
-}
-
-.footer-content {
-	position: relative;
-	top: 5px;
-
-	& p {
-		margin-bottom: 0;
-	}
-}
-
-
 @media screen and (max-width: 540px){
 	.jumbotron {
 		& .container {
-			top: 50px;
+			top: 100px;
 		}
 
 		h1 {
