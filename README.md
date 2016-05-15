@@ -5,6 +5,7 @@
 
  	- Make navbar sticky.
  	- Updates for mobile friendlyness.
+ 	- Updated CV, added word format.
 
  Updated 26/03/2016:
 
