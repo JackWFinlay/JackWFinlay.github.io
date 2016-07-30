@@ -2,11 +2,7 @@
 <html>
 	<head>
 		<!-- Stylesheets -->
-		
-		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
- -->
 		<link rel="stylesheet" type="text/css" href="assets/css/site.css">
-
 		<!-- /Stylesheets -->
 
 		<!-- Icons -->
@@ -14,9 +10,7 @@
 		<!-- /Icons -->
 
 		<!-- Viewport -->
-
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
-
 		<!-- /Viewport -->
 
 		<!-- Meta -->
@@ -25,6 +19,8 @@
 		<meta name="keywords" content="HTML,CSS,JavaScript,C#,Java,AUT,Auckland University of Technology,Jack,Witbrock,Finlay,">
 		<meta name="author" content="Jack Witbrock Finlay">
 		<!-- /Meta -->
+
+		<title>Jack Witbrock Finlay</title>
 
 		<!-- Google Analytics -->
 		<script>
@@ -38,40 +34,41 @@
 
 		</script>
 		<!-- /Google Analytics -->
-
-		<title>Jack Witbrock Finlay</title>
 	</head>
 	<body>
-
+		<div id="top"></div>
 		<!-- nav -->
-			<div class="nav" id="nav">
-				<div class="inner-nav">
-					<div class="hamburger" id="hamburger">≡</div>
-					<ul id="menu">
-						<li><a href="#" class="title">Jack Witbrock Finlay</a></li>
-						<li><a href="#about">about</a></li>
-						<li><a href="#portfolio">portfolio</a></li>
-						<li><a href="#resume">r&#233sum&#233</a></li>
-						<li><a href="#contact">contact</a></li>
+		<nav class="nav" id="nav">
+			<div class="inner-nav">
+				<div class="hamburger" id="hamburger">≡</div>
+				<ul id="menu">
+					<li><a href="#top" class="title anchor">Jack Witbrock Finlay</a></li>
+					<li><a href="#about" class="anchor">about</a></li>
+					<li><a href="#portfolio" class="anchor">portfolio</a></li>
+					<li><a href="#resume" class="anchor">r&#233sum&#233</a></li>
+					<li><a href="#contact" class="anchor">contact</a></li>
 
-					</ul>
-					
-				</div>
+				</ul>
+				
 			</div>
-			<!-- /nav -->
+		</nav>
+		<!-- /nav -->
+
+		<!-- Hero -->
 		<div class="hero-container">
 			<div class="hero"></div> <!-- Hero img -->
 			
 			<div class="inner-row container">
-				
-				
-
 				<h1>Jack Witbrock Finlay</h1>
 				<p>Web/Software Developer.</p>
 			</div>
 		</div>
+		<!-- /Hero -->
 		
-		<div class="row about" id="about">
+		<!-- About -->
+		
+		<div class="row about" id="about-row">
+			<div id="about" class="anchor-spacer"></div>
 			<div class="inner-row">
 				<div class="about-inner">
 					<h2>About</h2> 
@@ -85,8 +82,11 @@
 				</div>
 			</div>
 		</div>
+		<!-- /About -->
 
-		<div class="row portfolio" id="portfolio">
+		<!-- Portfolio -->
+		<div class="row portfolio" id="portfolio-row">
+			<div id="portfolio" class="anchor-spacer"></div>
 			<div class="inner-row">
 				<div class="portfolio-inner">
 					<div class="code-img" >
@@ -94,16 +94,19 @@
 					</div>
 					<div class="portfolio-content">
 						<h2>Portfolio</h2> 
-							<p>
-								You can find a collection of projects I have worked on at my<br/>
-								<a href="https://github.com/JackWFinlay" class="button">Github page</a>
-							</p>
+						<p>
+							You can find a collection of projects I have worked on at my
+						</p>
+						<a href="https://github.com/JackWFinlay" class="button">Github page</a>
 					</div>
 				</div>
 			</div>
 		</div>
+		<!-- /Portfolio -->
 		
-		<div class="row resume" id="resume">
+		<!-- Resume -->
+		<div class="row resume" id="resume-row">
+			<div id="resume" class="anchor-spacer"></div>
 			<div class="inner-row">
 				<div class="resume-content">
 					<h2>R&#233sum&#233</h2> 
@@ -116,8 +119,11 @@
 				</div>
 			</div>
 		</div>
+		<!-- /Resume -->
 
-		<div class="row contact" id="contact">
+		<!-- Contact -->
+		<div class="row contact" id="contact-row">
+			<div id="contact" class="anchor-spacer"></div>
 			<div class="inner-row">
 				<div class="contact-content">
 					<h2>LinkedIn</h2> 
@@ -136,56 +142,12 @@
 				</div>
 			</div>
 		</div>
-		
-
+		<!-- /Contact -->
 
 		<!-- Scripts -->
-		<script   src="https://code.jquery.com/jquery-2.1.4.min.js"   integrity="sha256-8WqyJLuWKRBVhxXIL1jBDD7SDxU936oZkCnxQbWwJVw="   crossorigin="anonymous"></script>
-		<!-- <script type="text/javascript" src="assets/javascript/transition.js"></script>
-		<script type="text/javascript" src="assets/javascript/collapse.js"></script> -->
-		<script>
-			var nav = $("#nav");
-
-			$(window).scroll(function(){ 
-			  if ($(window).scrollTop() > ($(window).height() - 100)) {
-			    nav.addClass("scroll-fix");
-			    
-
-			  } else {
-			    nav.removeClass("scroll-fix");
-			  }
-			  
-			});
-
-			$(document).ready(function(){
-				var hamburgerOpen = false;
-
-			    $("#hamburger").click(function() {
-			    	if (!hamburgerOpen) { 
-			        	$("#menu > li").css("display", "block");
-			        	$("#nav").addClass("scroll-fix");
-			        	hamburgerOpen = true;
-			    	} else {
-			    		$('#menu > li:not(:first-child)').css("display", "none");
-			    		$("#nav").removeClass("scroll-fix");
-			    		hamburgerOpen = false;
-			    	}
-
-			    });
-
-			 //    $(window).resize(function () {
-				//     if ($(window).width() > 1070){
-				//     	$("#menu > li :not(:first-child)").css("display", "inline-block");
-				//     } else {
-				//     	$("#menu > li :not(:first-child)").css("display", "none");
-				//     }
-
-				// });
-			});
-
-
-		</script>
-
+		<script src="https://code.jquery.com/jquery-2.1.4.min.js"   integrity="sha256-8WqyJLuWKRBVhxXIL1jBDD7SDxU936oZkCnxQbWwJVw="   crossorigin="anonymous"></script>
+		<script type="text/javascript" src="assets/javascript/site.js"></script>
 		<!-- /Scripts -->
+
 	</body>
 </html>

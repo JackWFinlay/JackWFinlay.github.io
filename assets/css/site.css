@@ -33,6 +33,10 @@ p {
   padding-top: 50px;
   width: 58.33333%; }
 
+.anchor-spacer {
+  position: relative;
+  top: -100px; }
+
 .button {
   padding: 4px 4px 2px 4px;
   text-decoration: none;
@@ -73,10 +77,11 @@ p {
 .hamburger {
   font-size: 48px;
   display: inline-block;
-  padding-top: 17px; }
+  padding-top: 17px;
+  float: left; }
 
 .hero {
-  background-image: url(../img/hero2.jpg);
+  background-image: url(../img/hero2-min.jpg);
   opacity: 0.5;
   height: 100vh;
   max-height: 1080px;
@@ -166,11 +171,20 @@ p {
   min-height: 400px;
   height: auto;
   width: 100%;
-  z-index: 1; }
+  z-index: 1;
+  overflow: hidden; }
 
 .scroll-fix {
   background-color: black;
   border-bottom: 1px solid #dbdbdb; }
+
+.hide-scroll-fix {
+  background-color: none !important;
+  -webkit-transition: background 0.25s linear;
+  -moz-transition: background 0.25s linear;
+  -ms-transition: background 0.25s linear;
+  -o-transition: background 0.25s linear;
+  transition: background 0.25s linear; }
 
 .title {
   text-decoration: underline;
@@ -181,19 +195,13 @@ p {
 
 @media all and (min-width: 1071px) {
   .hamburger {
-    display: none; }
-
-  .inner-nav ul > li {
-    display: inline-block; } }
+    display: none; } }
 @media all and (max-width: 1070px) {
-  .inner-nav ul > :not(:first-child) {
-    display: none; }
-
-  /*.inner-nav ul {
-  	width: 100%;
-  }*/
-  .inner-nav {
-    margin-left: 150px; }
+  .code-img {
+    opacity: 0.25;
+    transition: opacity 0.25s ease-in-out;
+    -moz-transition: opacity 0.25s ease-in-out;
+    -webkit-transition: opacity 0.25s ease-in-out; }
 
   .contact-content {
     width: 100%;
@@ -203,36 +211,36 @@ p {
   .container h1 {
     font-size: 12vh; }
 
-  .code-img {
-    opacity: 0.25;
-    transition: opacity 0.25s ease-in-out;
-    -moz-transition: opacity 0.25s ease-in-out;
-    -webkit-transition: opacity 0.25s ease-in-out; } }
+  .inner-nav {
+    margin-left: 150px; }
+
+  .inner-nav ul > :not(:first-child) {
+    display: none; } }
 @media all and (max-width: 767px) {
+  .about-inner {
+    width: 90%; }
+
+  .container h1 {
+    font-size: 12vw; }
+
   .hamburger {
     padding-top: 15px; }
-
-  .inner-nav ul li a {
-    font-size: 20px; }
 
   .inner-nav {
     width: 350px;
     margin-left: 15px; }
 
-  .container h1 {
-    font-size: 12vw; }
-
-  .row {
-    width: 100%; }
+  .inner-nav ul li a {
+    font-size: 20px; }
 
   .inner-row {
     width: 90%;
     padding: 0px 15px; }
 
-  .about-inner {
+  .portfolio-inner {
     width: 90%; }
 
-  .portfolio-inner {
-    width: 90%; } }
+  .row {
+    width: 100%; } }
 
 /*# sourceMappingURL=site.css.map */
