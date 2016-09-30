@@ -1,7 +1,7 @@
 a {
   padding: 4px 6px;
   text-decoration: none;
-  color: #333;
+  color: #222;
   text-transform: uppercase;
   font-size: 24px;
   font-weight: normal; }
@@ -9,11 +9,11 @@ a {
 a:hover {
   text-decoration: underline;
   padding: 4px 4px 2px 4px;
-  border: 2px solid #333;
+  border: 2px solid #222;
   border-radius: 5px; }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #fff;
   margin: 0; }
 
@@ -22,7 +22,7 @@ h2 {
 
 p {
   font-size: 18px;
-  font-weight: lighter; }
+  font-weight: normal; }
 
 .about {
   margin-top: 100vh;
@@ -41,7 +41,7 @@ p {
   padding: 4px 4px 2px 4px;
   text-decoration: none;
   border-radius: 5px;
-  border: 2px solid #333;
+  border: 2px solid #222;
   min-width: 100px;
   vertical-align: middle;
   display: inline-block; }
@@ -53,7 +53,7 @@ p {
 
 .contact {
   background-color: white;
-  color: #333; }
+  color: #222; }
 
 .contact-content {
   float: left;
@@ -81,10 +81,9 @@ p {
   float: left; }
 
 .hero {
-  background-image: url(../img/hero2-min.jpg);
+  background-image: url(../img/hero3-min.jpg);
   opacity: 0.5;
   height: 100vh;
-  max-height: 1080px;
   width: 100vw;
   background-repeat: no-repeat;
   background-position: center;
@@ -93,7 +92,7 @@ p {
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
-  /*z-index: -1;*/ }
+  z-index: -2; }
 
 .hero-container {
   background-color: black;
@@ -144,7 +143,7 @@ p {
 
 .portfolio {
   background-color: #fff;
-  color: #333; }
+  color: #222; }
 
 .portfolio-content {
   text-align: right;
@@ -160,7 +159,7 @@ p {
 .resume {
   text-align: center;
   background-color: #efefef;
-  color: #333; }
+  color: #222; }
 
 .resume-content {
   padding-top: 50px; }
