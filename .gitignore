@@ -1,2 +1,5 @@
-prepros.cfg
+.sass-cache
 *.map
+index.sublime-workspace
+prepros.cfg
+.DS_Store
