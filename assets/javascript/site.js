@@ -1,5 +1,9 @@
 $(document).ready(function(){
 	
+	if ($(window).scrollTop() > ($(window).height() - 100)) {
+			$("#nav").addClass("scroll-fix");
+	}
+
 	var hamburgerOpen = false;
 
 	var openMenu = function () {
@@ -38,6 +42,20 @@ $(document).ready(function(){
 		hamburgerOpen = false;
 	};
 
+	var scrollFix = function () {
+
+		if ($(window).scrollTop() > ($(window).height() - 100)) {
+			$("#nav").addClass("scroll-fix");
+		} else if (!hamburgerOpen){
+			$("#nav").addClass("hide-scroll-fix");
+			$("#nav").removeClass("scroll-fix");
+			
+			setTimeout(function () {
+				$("#nav").removeClass("hide-scroll-fix");
+			}, 500);
+		}
+	}
+
 	$("#hamburger").click(function() {
 		if (!hamburgerOpen) { 
 			openMenu();
@@ -60,17 +78,7 @@ $(document).ready(function(){
 	});
 
 	$(window).scroll(function () { 
-		if ($(window).scrollTop() > ($(window).height() - 100)) {
-			$("#nav").addClass("scroll-fix");
-		} else if (!hamburgerOpen){
-			$("#nav").addClass("hide-scroll-fix");
-			$("#nav").removeClass("scroll-fix");
-			
-			setTimeout(function () {
-				$("#nav").removeClass("hide-scroll-fix");
-			}, 500);
-		}
-	  
+		scrollFix();
 	});
 
 	$(window).resize(function () {
