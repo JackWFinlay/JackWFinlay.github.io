@@ -2,3 +2,4 @@
 *.map
 index.sublime-workspace
 prepros.cfg
+.DS_Store
