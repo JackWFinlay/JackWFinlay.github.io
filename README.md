@@ -3,7 +3,8 @@
  
  Updated 16/03/2017
 
- 	- Update CV/Resume
+ 	- Update CV/Resume.
+	- Add links to favourite repos.
 
  Updated 30/09/2016:
 
