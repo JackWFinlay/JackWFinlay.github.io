@@ -1,6 +1,11 @@
 # jackfinlay.com
  This is the repo for my personal website jackfinlay.com. Repositories named in the form <username>.github.io are automatically hosted as a website.
  
+ Updated 05/06/2017
+ 
+ 	- Update to move hosting to Firebase (Free hosting and SSL certs)
+	- Integrate CI via Travis CI.
+ 
  Updated 16/03/2017
 
  	- Update CV/Resume.
