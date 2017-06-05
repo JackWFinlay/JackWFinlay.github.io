@@ -92,10 +92,10 @@ p {
 }
 
 .hamburger {
-  font-size: 48px;
-  display: inline-block;
-  padding-top: 17px;
-  float: left;
+  font-size: 24px;
+  display: inline;
+  cursor: pointer;
+  cursor: hand;
 }
 
 .hero {
