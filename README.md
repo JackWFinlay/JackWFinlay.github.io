@@ -1,5 +1,9 @@
 # jackfinlay.com
  This is the repo for my personal website jackfinlay.com. Repositories named in the form <username>.github.io are automatically hosted as a website.
+	
+ Updated 16/01/2018
+ 
+ 	- Update links
  
  Updated 05/06/2017
  
