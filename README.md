@@ -1,13 +1,18 @@
 # jackfinlay.com
- This is the repo for my personal website jackfinlay.com. Repositories named in the form <username>.github.io are automatically hosted as a website.
+ This is the repo for my personal website: [jackfinlay.com](https://jackfinlay.com). This site is deployed to Google Firebase (free hosting, CDN, and SSL) via Travis CI.
+	
+ Updated 16/05/2018
+ 
+ 	- Update CV.
+	- Update Information.
 	
  Updated 16/01/2018
  
- 	- Update links
+ 	- Update links.
  
  Updated 05/06/2017
  
- 	- Update to move hosting to Firebase (Free hosting and SSL certs)
+ 	- Update to move hosting to Firebase (Free hosting and SSL certs).
 	- Integrate CI via Travis CI.
  
  Updated 16/03/2017
@@ -17,7 +22,7 @@
 
  Updated 30/09/2016:
 
-    - Redesign site.
+ 	- Redesign site.
  
  Updated 15/05/2016:
 
