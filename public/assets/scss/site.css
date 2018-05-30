@@ -30,13 +30,11 @@ p {
 }
 
 .about {
-  margin-top: 100vh;
   background-color: #333;
   border-top: 1px solid #dbdbdb;
 }
 
 .about-inner {
-  padding-top: 50px;
   width: 58.33333%;
 }
 
@@ -78,6 +76,7 @@ p {
   left: 0;
   right: 0;
   width: 100vw;
+  height: 100%;
 }
 
 .container h1 {
@@ -89,6 +88,17 @@ p {
 
 .display-inline-block {
   display: inline-block;
+}
+
+.down-arrow {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  bottom: 56pt;
+  text-align: center;
+  font-size: 12pt;
+  width: 100%;
+  z-index: 1;
 }
 
 .hamburger {
@@ -110,15 +120,11 @@ p {
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
-  z-index: -2;
+  background-attachment: fixed;
 }
 
 .hero-container {
   background-color: black;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -99;
 }
 
 .inner-nav {
@@ -129,7 +135,6 @@ p {
 
 .inner-nav ul {
   list-style-type: none;
-  float: left;
   -moz-padding-start: 0px;
   -webkit-padding-start: 0px;
   padding-left: 0px;
@@ -190,6 +195,7 @@ p {
 
 .portfolio-inner {
   position: relative;
+  overflow: hidden;
 }
 
 .resume {
@@ -208,8 +214,6 @@ p {
   min-height: 400px;
   height: auto;
   width: 100%;
-  z-index: 1;
-  overflow: hidden;
 }
 
 .scroll-fix {

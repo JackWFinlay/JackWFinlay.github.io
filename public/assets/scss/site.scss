@@ -34,18 +34,16 @@ p {
 }
 
 .about {
-	margin-top: 100vh;
 	background-color: #333;
 	border-top: 1px solid #dbdbdb;
 }
 
 .about-inner {
-	padding-top: 50px;
 	width: (7/12) * 100%;
 }
 
 .anchor-spacer {
-	position:relative; 
+	position:relative;
 	top:-100px;
 }
 
@@ -82,6 +80,7 @@ p {
 	left: 0;
 	right: 0;
 	width: 100vw;
+	height: 100%;
 
 	h1 {
 		margin-top: 20vh;
@@ -91,8 +90,19 @@ p {
 	}
 }
 
-.display-inline-block{
+.display-inline-block {
 	display: inline-block;
+}
+
+.down-arrow {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	bottom: 56pt;
+	text-align: center;
+	font-size: 12pt;
+	width: 100%;
+	z-index: 1;
 }
 
 .hamburger {
@@ -115,16 +125,12 @@ p {
     -o-background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
-    background-size: cover;
-    z-index: -2;
+	background-size: cover;
+	background-attachment:fixed;
 }
 
 .hero-container {
 	background-color: black;
-	position: fixed;
-	top: 0;
-	left: 0;
-	z-index: -99;
 }
 
 .inner-nav {
@@ -134,16 +140,15 @@ p {
 
 	& ul {
 		list-style-type: none;
-		float:left;
-		-moz-padding-start: 0px;    
-		-webkit-padding-start: 0px; 
-		padding-left: 0px; /* removes annoying user-agent stylesheet ul padding */ 
+		-moz-padding-start: 0px;
+		-webkit-padding-start: 0px;
+		padding-left: 0px; /* removes annoying user-agent stylesheet ul padding */
 		display: inline-block;
 
 		& li {
 			display: inline-block;
 			margin: 15px 22px 15px 0px;
-			
+
 			& a {
 				padding: 6px 6px 4px 6px;
 				text-decoration: none;
@@ -163,8 +168,6 @@ p {
 				margin: 15px 0px 15px 0px;
 			}
 		}
-
-		
 	}
 }
 
@@ -183,7 +186,7 @@ p {
 
 .portfolio {
 	background-color: $primary-color;
-	color: $soft-black;	
+	color: $soft-black;
 }
 
 .portfolio-content {
@@ -197,7 +200,7 @@ p {
 
 .portfolio-inner {
 	position: relative;
-
+	overflow: hidden;
 }
 
 .resume {
@@ -214,10 +217,8 @@ p {
 	float:left;
   	border-bottom: 1px solid #dbdbdb;
   	min-height: 400px;
-	height: auto;	
+	height: auto;
 	width: 100%;
-	z-index: 1;
-	overflow: hidden;
 }
 
 .scroll-fix {
@@ -259,7 +260,7 @@ p {
 		-moz-transition: opacity 0.25s ease-in-out;
 		-webkit-transition: opacity 0.25s ease-in-out;
 	}
-	
+
 	.contact-content {
 		width: 100%;
 		border-bottom: 1px solid #dbdbdb;
