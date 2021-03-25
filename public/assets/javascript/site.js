@@ -4,9 +4,9 @@ $(document).ready(function(){
 			$("#nav").addClass("scroll-fix");
 	}
 
-	var hamburgerOpen = false;
+	let hamburgerOpen = false;
 
-	var openMenu = function () {
+	const openMenu = function () {
 		
 		$("#nav").addClass("scroll-fix").animate({ height: "278px" },250);
 		$("#menu > li").css("display", "block");
@@ -14,9 +14,9 @@ $(document).ready(function(){
 		hamburgerOpen = true;
 	};
 
-	var closeMenu = function () {
+	const closeMenu = function () {
 
-		if ($(window).scrollTop() <= ($(window).height() - 100)) {
+		if ($(window).scrollTop() <= $('#nav').height()) {
 			$("#nav").animate({ height: "100px" }, 250, function (){
 
 				if ($(window).width() <= 1070) {
@@ -42,9 +42,9 @@ $(document).ready(function(){
 		hamburgerOpen = false;
 	};
 
-	var scrollFix = function () {
+	const scrollFix = function () {
 
-		if ($(window).scrollTop() > ($(window).height() - 100)) {
+		if ($(window).scrollTop() > $('#nav').height()) {
 			$("#nav").addClass("scroll-fix");
 		} else if (!hamburgerOpen){
 			$("#nav").addClass("hide-scroll-fix");

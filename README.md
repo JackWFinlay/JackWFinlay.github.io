@@ -1,6 +1,12 @@
 # jackfinlay.com
  This is the repo for my personal website: [jackfinlay.com](https://jackfinlay.com). This site is deployed to Google Firebase (free hosting, CDN, and SSL) via Travis CI.
-	
+
+ Updated 25/03/2021
+
+	- Update CV.
+	- Update Information.
+	- Move to GitHub Pages.
+
  Updated 16/05/2018
  
  	- Update CV.
